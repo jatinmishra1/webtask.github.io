@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Mulish&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+.navbar-brand{
+    font-size: 1.9rem !important;
+    color: #565387 !important;
+}
+.navbar a{
+    font-size: 1.3rem !important;
+    text-transform: capitalize !important;
+}
+.navbar a:hover{
+  color: #3498db !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #3498db;
+}
+.btn:hover{
+background-color: black;
+transition: 0.5s;
+}
+.brand-name{
+    color:#3498db !important ;
+}
+.header_img{
+  border-radius: 40px;
+}
+ .animated{
+  animation-name: project1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+
+@keyframes project1{
+    0%{
+        transform:translateY(15px);
+    }
+    100%{
+        transform:translateY(-15px);
+    }
+}
+#root{
+    min-height:100vh;
+}
+
+.foot{
+    position: sticky;
+    top: 100%;
+}
+
+
